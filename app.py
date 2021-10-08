@@ -1,5 +1,4 @@
 """Main App logic for prediction."""
-import re
 import streamlit as st
 import numpy as np
 import pandas as pd
