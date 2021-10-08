@@ -38,8 +38,6 @@ def run():
     res.append(gender)
     res.append(change(gender))
 
-    
-
     columns  = ['Polyuria', 'Polydipsia', 'sudden weight loss',
        'weakness', 'Polyphagia', 'Genital thrush', 'visual blurring',
        'Itching', 'Irritability', 'delayed healing', 'partial paresis',
