@@ -46,7 +46,7 @@ def run():
     col_dict = dict.fromkeys(columns, 0)
 
     for key, val in col_dict.items():
-        val = st.radio(f"Do you have {key}",("Yes","No"))
+        val = st.radio(f"Do you have {key} ?",("Yes","No"))
         val = convert(val)
         res.append(val)
         res.append(change(val))
